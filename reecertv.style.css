@@ -1,0 +1,63 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background: url("/assets/reecertv.background.jpg");
+    background-size: cover;
+}
+
+#top {
+    text-align: center;
+}
+
+#top input {
+    border: 0;
+    background: none;
+    display: inline-block;
+    text-align: center;
+    border: 3px solid #000000;
+    padding: 8px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    transition: 0.25px;
+    background: black;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-top: 16px;
+    }
+
+#logo-name {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 30px;
+    color: white;
+    }
+
+#navigation a {
+    color: gray;
+    padding: 8px;
+}
+
+#navigation a:hover {
+    color: red;
+}
+
+#profile-bmp img {
+    margin-top: 32px;
+    margin-bottom: 0px;
+    border-radius: 15px;
+}
+
+#main {
+    max-width: 800px;
+    margin: auto;
+    padding: 16px;
+    background-color: rgb(11, 12, 56);
+    color: white;
+    margin-top: 32px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+#footer {
+    font-weight: bold;
+}

@@ -58,6 +58,22 @@ body {
     border-radius: 25px;
 }
 
+#gallery img {
+    margin-bottom: 5px;
+    border-radius: 15px;
+    max-width: 50%;
+    width: auto;
+    height: auto;
+}
+
+#gallery img:hover {
+    margin-bottom: 5px;
+    border-radius: 15px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
 #footer {
     font-weight: bold;
 }

@@ -44,6 +44,18 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     border-radius: 15px;
+    max-width: 75%;
+    width: auto;
+    height: auto;
+}
+
+#error img:hover {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 15px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 #go-back input {

@@ -1,0 +1,79 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background: white;
+    background-size: cover;
+}
+
+#top {
+    text-align: center;
+}
+
+#top input {
+    border: 0;
+    background: none;
+    display: inline-block;
+    text-align: center;
+    border: 3px solid #000000;
+    padding: 8px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    transition: 0.25px;
+    background: black;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-top: 16px;
+    }
+
+#logo-name {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    }
+
+#navigation a {
+    color: gray;
+    padding: 8px;
+}
+
+#navigation a:hover {
+    color: red;
+}
+
+#error img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 15px;
+}
+
+#go-back input {
+    border: 0;
+    background: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 3px solid #000000;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+#main {
+    max-width: 800px;
+    margin: auto;
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 32px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+#footer {
+    font-weight: bold;
+}

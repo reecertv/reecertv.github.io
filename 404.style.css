@@ -74,6 +74,22 @@ body {
     cursor: pointer;
 }
 
+#go-back input:hover {
+    border: 0;
+    background: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 14px 10px;
+    width: 240px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
 #main {
     max-width: 800px;
     margin: auto;

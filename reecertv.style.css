@@ -1,6 +1,6 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    background: url("/assets/reecertv.background.jpg");
+    background: url("/assets/reecertv.background-4.jpg");
     background-size: cover;
 }
 
@@ -28,6 +28,7 @@ body {
     font-weight: bold;
     padding: 30px;
     color: white;
+    cursor: default;
     }
 
 #navigation a {
@@ -48,6 +49,7 @@ body {
     max-width: 40px;
     background: none;
     border: none;
+    cursor: pointer;
 }
 
 #profile-bmp img {
@@ -60,11 +62,11 @@ body {
     max-width: 800px;
     margin: auto;
     padding: 16px;
-    background-color: rgb(11, 12, 56);
-    color: white;
+    background-color: rgba(0, 0, 0, 0.473);
+    color: rgb(255, 255, 255);
     margin-top: 16px;
     text-align: center;
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 25px;
 }
 

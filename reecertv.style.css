@@ -87,6 +87,25 @@ body {
     height: auto;
 }
 
+#texturepacks {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    padding: 16px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 16px;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+}
+#texturepacks img {
+    width: 75%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+
 #footer {
     font-weight: bold;
     color: rgb(0, 42, 182);

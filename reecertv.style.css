@@ -95,7 +95,7 @@ body {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     margin-top: 16px;
-    text-align: center;
+    text-align: left;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 25px;
 }
@@ -103,8 +103,40 @@ body {
     width: 75%;
     margin-top: 18px;
     margin-bottom: 18px;
+    display: flex;
 }
-
+#texturepacks input {
+    border: 0;
+    background: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 3px solid #ffffff;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    transition: 0.25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#texturepacks input:hover {
+    border: 0;
+    background: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 3px solid rgb(0, 116, 0);
+    padding: 14px 10px;
+    width: 240px;
+    outline: none;
+    color: rgb(0, 116, 0);
+    border-radius: 25px;
+    transition: 0.25px;
+    cursor: pointer;
+    font-weight: bold;
+}
 
 #footer {
     font-weight: bold;

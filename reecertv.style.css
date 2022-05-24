@@ -58,6 +58,8 @@ body {
     margin-top: 32px;
     margin-bottom: 0px;
     border-radius: 15px;
+    width: 200px;
+    height: 200px;
 }
 
 #main {

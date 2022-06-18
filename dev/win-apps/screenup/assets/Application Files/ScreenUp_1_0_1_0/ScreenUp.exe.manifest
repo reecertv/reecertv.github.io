@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="ScreenUp.exe" version="1.0.1.0" publicKeyToken="c2e2996eafbb1782" language="en" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="ScreenUp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="ScreenUp" version="1.0.1.0" language="en" processorArchitecture="msil" />
     <commandLine file="ScreenUp.exe" parameters="" />
   </entryPoint>
   <trustInfo>

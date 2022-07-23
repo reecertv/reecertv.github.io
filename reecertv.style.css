@@ -1,7 +1,9 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    background: url("/assets/reecertv.background-4.jpg");
+    background: url("/assets/reecertv.background-2.jpg");
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 #top {
@@ -27,17 +29,17 @@ body {
     font-size: 32px;
     font-weight: bold;
     padding: 30px;
-    color: white;
+    color: yellow;
     cursor: default;
     }
 
 #navigation a {
-    color: gray;
+    color: white;
     padding: 8px;
 }
 
 #navigation a:hover {
-    color: red;
+    color: yellow;
 }
 
 #social input{
@@ -142,5 +144,5 @@ body {
 
 #footer {
     font-weight: bold;
-    color: rgb(0, 42, 182);
+    color: white;
 }
